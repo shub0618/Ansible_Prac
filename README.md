@@ -29,9 +29,9 @@ Each folder is self-contained, and the exercises range from beginner to advanced
 The repository is organized as follows:
 
 ```plaintext
-├── 1.Installation/
-├── 2.Inventory_File/
-├── 3.AdHoc_Commands/
+├── 01.Installation/
+├── 02.Inventory_File/
+├── 03.AdHoc_Commands/
 ├── LICENSE
 └── README.md
 ```
@@ -43,7 +43,7 @@ To get started with this repository, you'll need to clone it to your local machi
 
 ```bash
 git clone https://github.com/shub0618/DevOps_Ansible_Prac.git
-cd 01.Inventory_File
+cd 02.Inventory_File
 ```
 
 ## Contributing
