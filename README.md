@@ -14,41 +14,29 @@ This repository contains a collection of ansible exercises that I have worked on
 ## Overview
 
 This repository is designed to help you:
-- Practice essential Python concepts through well-structured exercises.
-- Learn how to solve common programming tasks using Python scripts.
-- Explore solutions to real-world problems using Python.
+- Ansible essential, Ansible concepts through well-structured exercises.
+- Learn how to solve common programming tasks using Ansible-Playbooks.
+- Explore solutions to real-world problems using Ansible.
 
-Each folder and script is self-contained, and the exercises range from beginner to advanced levels, covering various topics such as:
-- Basic Python syntax
-- Data structures (lists, dictionaries, tuples, etc.)
-- File I/O
+Each folder is self-contained, and the exercises range from beginner to advanced levels, covering various topics such as:
+- Basic inventory file
+- Adhoc_Commands
+- Playbook
+- Modules
 
 ## Directory Structure
 
 The repository is organized as follows:
 
 ```plaintext
-├── 1.Python_installation/
-├── 2.About_JSON_and_YAML/
-├── 3.Python_Prac/
-├── 4.Modules/
-├── 5.OS_Tasks/
-├── 6.Fabric/
-├── 7.Vagrantfile_for_Prac/
-├── 8.boto3/
-└── LICENSE
+├── 1.Installation/
+├── 2.Inventory_File/
+├── 3.AdHoc_Commands/
+├── LICENSE
 └── README.md
 ```
 
-- `Python_installation/`: Contains the PDF with instructions for installing python.
-  - `About_JSON_and_YAML/`: Exercises on JSON and YAML.
-  - `Python_Prac/`: Contains Common python syntax and examples.
-  - `Moduels/`: Contains the practice of python Moduels and calling those modules.
-  - `OS_Tasks/`: Contains python scripts that can be executed on linux OS.
-  - `Fabric/`: Contains fabfile that was used to run pyhton library fabric.
-  - `Vagrantfile_for_Prac/`: Contains the multi-OS Vagrantfile that was used in the Practice.
-  - `boto3/`: Contains pyhton scripts using boto3.
- 
+  - `Installation/`: Contains the commands with instructions for installing Ansible.
 ## Getting Started
 
 To get started with this repository, you'll need to clone it to your local machine:
