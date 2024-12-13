@@ -34,6 +34,7 @@ The repository is organized as follows:
 ├── 03.AdHoc_Commands/
 ├── 04.Playbook/
 ├── 05.Modules/
+├── 06.Ansible_Configuration/
 ├── LICENSE
 └── README.md
 ```
