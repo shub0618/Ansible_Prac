@@ -32,6 +32,8 @@ The repository is organized as follows:
 ├── 01.Installation/
 ├── 02.Inventory_File/
 ├── 03.AdHoc_Commands/
+├── 04.Playbook/
+├── 05.Modules/
 ├── LICENSE
 └── README.md
 ```
