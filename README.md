@@ -35,6 +35,8 @@ The repository is organized as follows:
 ├── 04.Playbook/
 ├── 05.Modules/
 ├── 06.Ansible_Configuration/
+├── 07.Variables_and_Debug/
+├── 08.Groups_and_Host_Variables/
 ├── LICENSE
 └── README.md
 ```
