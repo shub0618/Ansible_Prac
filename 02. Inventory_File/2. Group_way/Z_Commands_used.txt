@@ -1,0 +1,18 @@
+ansible web02 -m ping -i inventory
+
+ansible db01 -m ping -i inventory
+
+ansible webservers -m ping -i inventory
+
+ansible dbservers -m ping -i inventory
+
+ansible dc_oregon -m ping -i inventory
+
+ansible all -m ping -i inventory
+
+ansible '*' -m ping -i inventory
+
+ansible 'web*' -m ping -i inventory
+
+
+

@@ -1,0 +1,25 @@
+vim clientkey.pem 
+
+ansible web01 -m ping -i inventory
+
+sudo cat /ets/ansible/ansible.cfg
+
+cd /etc/ansible
+ls
+
+cat ansible.cfg 
+copy the command 
+ansible-config init --disabled -t all > ansible.cfg
+
+mv ansible.cfg ansible.cfg_backup
+
+ansible-config init --disabled -t all > ansible.cfg
+
+vim ansible.cfg 
+search for 
+/host_key_checking
+change it to flase and save it.
+
+chmod 400 clientkey.pem
+
+ansible web01 -m ping -i inventory
