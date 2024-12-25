@@ -1,0 +1,17 @@
+vim /etc/ansible/ansible.cfg
+# look for the settings in that file and take a look
+
+vim ansible.cfg
+# crate the file
+
+anisble-playbook db.yaml
+
+sudo touch /var/log/ansible.log
+sudo chwon ubuntu.ubuntu /var/log/ansible.log
+
+anisble-playbook db.yaml
+
+anisble-playbook db.yaml -vv
+
+
+
