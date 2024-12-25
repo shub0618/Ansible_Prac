@@ -2,10 +2,7 @@
 - name: DBserver setup
   hosts: dbservers
   become: yes
-    #  vars:
-    #dbname: electric
-    #dbuser: current
-    #dbpass: tesla
+  
   tasks:
     - debug:
         msg: " The dbname is {{dbname}}"
