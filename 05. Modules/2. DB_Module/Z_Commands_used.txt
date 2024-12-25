@@ -1,0 +1,18 @@
+ansible-playbook -i inventory db.yaml
+
+ssh -i clientkey.pem ec2-user@ipaddress
+
+yum search pyhton | grep -i mysql
+logout
+exit
+
+ansible-playbook -i inventory db.yaml
+# error faced
+# fix the socket file 
+
+ansible-playbook -i inventory db.yaml
+
+ansible-galaxy collection install community.mysql
+# changes to the yaml file and run the next command
+
+ansible-playbook -i inventory db.yaml 

@@ -1,0 +1,8 @@
+ansible-playbook -i inventory web.yaml
+
+ssh -i clientkey.pem ec2-user@ipaddress
+
+cd /var/www/html/
+ls
+cat index.html.some-timestamp-of backup
+
