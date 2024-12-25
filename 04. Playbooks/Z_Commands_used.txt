@@ -1,0 +1,19 @@
+ansible webservers -m yum -a "name=httpd state=absent" -i inventory --become
+
+ansible-playbook -i inventory the yaml file path, if in the same directory mention the name
+
+ansible-playbook -i inventory wed-db.yaml
+
+ansible-playbook -i inventory wed-db.yaml
+
+ansible-playbook -i inventory wed-db.yaml -v
+
+ansible-playbook -i inventory wed-db.yaml -vv
+
+ansible-playbook -i inventory wed-db.yaml -vvv
+
+ansible-playbook -i inventory wed-db.yaml -vvvv
+
+ansible-playbook -i inventory wed-db.yaml --syntax-check
+
+ansible-playbook -i inventory wed-db.yaml -C
