@@ -1,0 +1,7 @@
+ansible-playbook vars_precedence.yaml
+
+ansible -m steup web01
+
+ansible -m ping all
+
+ansible-playbook print_facts.yaml

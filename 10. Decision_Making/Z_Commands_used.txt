@@ -1,0 +1,3 @@
+ansible-playbook provisioning.yaml -C
+
+ansible-playbook provisioning.yaml

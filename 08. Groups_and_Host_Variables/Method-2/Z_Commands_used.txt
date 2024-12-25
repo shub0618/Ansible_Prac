@@ -1,1 +1,3 @@
 ansible-playbook vars_precedence.yaml
+
+ansible-playbook -e USRM=cliuser -e COMM=cliuser vars_precedence.yaml
