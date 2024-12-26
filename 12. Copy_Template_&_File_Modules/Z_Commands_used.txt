@@ -1,0 +1,15 @@
+ansible-playbook provisioning.yaml
+
+# login into any one server and check the banner file
+# copy the chrony.conf content
+
+# for centos
+cat /etc/chrony.conf
+
+# for ubuntu
+cat /etc/ntp.conf
+
+# back to control machine and change the content in the group_vars
+# give the vars in the ntpconf files 
+
+ansible-playbook provisioning.yaml
