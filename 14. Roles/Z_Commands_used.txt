@@ -1,0 +1,20 @@
+ansible-playbook provisioning.yaml
+
+sudo apt install tree -y
+
+tree 14.Roles
+
+mkdir roles 
+
+cd roles
+
+ansible-galaxy init post-install
+
+# in the same folder run the playbook
+
+ansible-playbook provisioning.yaml
+
+# role are readymade you can download based on the requirement from the ansible website
+# sample commands
+
+ansible-galaxy install geerlinguy.java
