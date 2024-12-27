@@ -1,6 +1,6 @@
 # Ansible Practice
 
-Welcome to the **Devops_Ansible_Prac** repository!
+Welcome to the **Ansible_Prac** repository!
 This repository contains a collection of ansible exercises that I have worked on while learning and practicing.
 
 ## Table of Contents
@@ -55,7 +55,7 @@ The repository is organized as follows:
 To get started with this repository, you'll need to clone it to your local machine:
 
 ```bash
-git clone https://github.com/shub0618/DevOps_Ansible_Prac.git
+git clone https://github.com/shub0618/Ansible_Prac.git
 cd 02.Inventory_File
 ```
 
