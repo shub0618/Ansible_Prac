@@ -37,6 +37,14 @@ The repository is organized as follows:
 ├── 06.Ansible_Configuration/
 ├── 07.Variables_and_Debug/
 ├── 08.Groups_and_Host_Variables/
+├── 09.Fact_Variables/
+├── 10.Decision_Making/
+├── 11.Loops/
+├── 12.Copy_Template_&_File_Modules/
+├── 13.Handlers/
+├── 14.Roles/
+├── 15.Ansible_for_AWS/
+├── 16.Extra_Prac/
 ├── LICENSE
 └── README.md
 ```
